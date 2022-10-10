@@ -1,2 +1,2 @@
-#!/bin/bash
-find . ! -path . -type d | wc -ll
+#!/bin/batch
+find . -mindepth 1 -type d | wc -l
